@@ -15,8 +15,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import software.bernie.example.config.ConfigHandler;
-import software.bernie.example.registry.ItemRegistry;
+import fr.iamacat.geckolibexamplemod.config.ConfigHandler;
+import fr.iamacat.geckolibexamplemod.registry.ItemRegistry;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.handler.PlayerLoginHandler;
 
