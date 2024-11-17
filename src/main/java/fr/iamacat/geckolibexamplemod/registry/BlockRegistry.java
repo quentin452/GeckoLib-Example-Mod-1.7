@@ -1,8 +1,8 @@
 package fr.iamacat.geckolibexamplemod.registry;
 
-import software.bernie.example.block.BotariumBlock;
-import software.bernie.example.block.DiagonalBlock;
-import software.bernie.example.block.FertilizerBlock;
+import fr.iamacat.geckolibexamplemod.block.BotariumBlock;
+import fr.iamacat.geckolibexamplemod.block.DiagonalBlock;
+import fr.iamacat.geckolibexamplemod.block.FertilizerBlock;
 
 public class BlockRegistry {
 

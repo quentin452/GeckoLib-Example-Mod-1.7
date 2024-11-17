@@ -2,8 +2,8 @@ package fr.iamacat.geckolibexamplemod.registry;
 
 import net.minecraft.item.Item;
 
-import software.bernie.example.item.JackInTheBoxItem;
-import software.bernie.example.item.PotatoArmorItem;
+import fr.iamacat.geckolibexamplemod.item.JackInTheBoxItem;
+import fr.iamacat.geckolibexamplemod.item.PotatoArmorItem;
 
 public class ItemRegistry {
 
