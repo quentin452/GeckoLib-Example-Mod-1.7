@@ -1,5 +1,6 @@
 package fr.iamacat.geckolibexamplemod.client.renderer.entity;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
@@ -15,6 +16,6 @@ public class BikeGeoZRenderer extends GeoEntityRenderer<BikeEntityZ> {
 
     @Override
     protected ResourceLocation getEntityTexture(Entity p_110775_1_) {
-        return null;
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/bike.png");
     }
 }

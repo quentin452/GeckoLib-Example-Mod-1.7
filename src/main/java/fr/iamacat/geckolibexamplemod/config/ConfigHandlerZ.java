@@ -7,7 +7,7 @@ import net.minecraftforge.common.config.Configuration;
 public class ConfigHandlerZ {
 
     public static Configuration config;
-    public static boolean enableExamples;
+    public static boolean enableExampleBoolean;
 
     public ConfigHandlerZ() {}
 
@@ -22,7 +22,7 @@ public class ConfigHandlerZ {
 
     public static void syncConfig() {
         config.addCustomCategoryComment("general", "General Settings");
-        enableExamples = config.getBoolean("enableexamples", "general", false, "Enable Geckolib Examples");
+        enableExampleBoolean = config.getBoolean("example_boolean", "general", false, "Enable Geckolib Examples");
         config.save();
     }
 }

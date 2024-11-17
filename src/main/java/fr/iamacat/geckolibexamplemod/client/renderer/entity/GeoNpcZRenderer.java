@@ -2,6 +2,7 @@ package fr.iamacat.geckolibexamplemod.client.renderer.entity;
 
 import java.util.ArrayList;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
@@ -85,6 +86,6 @@ public class GeoNpcZRenderer extends GeoEntityRenderer<GeoNpcEntityZ> {
 
     @Override
     protected ResourceLocation getEntityTexture(Entity p_110775_1_) {
-        return null;
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/geo_npc.png");
     }
 }

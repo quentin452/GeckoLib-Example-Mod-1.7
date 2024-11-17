@@ -1,6 +1,7 @@
 package fr.iamacat.geckolibexamplemod.client.renderer.entity; // The package our class is located in
 
 // Imports of the classes used in this class description
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
@@ -32,6 +33,6 @@ public class ExampleGeoZRenderer extends GeoEntityRenderer<GeoExampleEntityZ> {
 
     @Override
     protected ResourceLocation getEntityTexture(Entity p_110775_1_) {
-        return null;
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/bat.png");
     }
 }

@@ -1,5 +1,6 @@
 package fr.iamacat.geckolibexamplemod.client.renderer.entity;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.geckominecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -33,6 +34,6 @@ public class ReplacedCreeperZRenderer extends GeoReplacedEntityRenderer<Replaced
 
     @Override
     protected ResourceLocation getEntityTexture(Entity p_110775_1_) {
-        return null;
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/creeper.png");
     }
 }
