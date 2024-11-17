@@ -2,7 +2,7 @@ package fr.iamacat.geckolibexamplemod.client.model.tile;
 
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.block.tile.DiagonalTileEntity;
+import fr.iamacat.geckolibexamplemod.block.tile.DiagonalTileEntity;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

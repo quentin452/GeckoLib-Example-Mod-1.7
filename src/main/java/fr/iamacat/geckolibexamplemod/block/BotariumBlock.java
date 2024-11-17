@@ -12,7 +12,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
-import software.bernie.example.block.tile.BotariumTileEntity;
+import fr.iamacat.geckolibexamplemod.block.tile.BotariumTileEntity;
 
 public class BotariumBlock extends BlockDirectional implements ITileEntityProvider {
 

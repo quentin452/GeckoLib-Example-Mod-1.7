@@ -3,7 +3,7 @@ package fr.iamacat.geckolibexamplemod.block;
 import javax.annotation.Nullable;
 
 import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
-import software.bernie.example.block.tile.FertilizerTileEntity;
+import fr.iamacat.geckolibexamplemod.block.tile.FertilizerTileEntity;
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;

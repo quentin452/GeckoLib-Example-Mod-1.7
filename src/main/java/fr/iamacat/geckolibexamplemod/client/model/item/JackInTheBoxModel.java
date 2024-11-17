@@ -2,7 +2,7 @@ package fr.iamacat.geckolibexamplemod.client.model.item;
 
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.item.JackInTheBoxItem;
+import fr.iamacat.geckolibexamplemod.item.JackInTheBoxItem;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

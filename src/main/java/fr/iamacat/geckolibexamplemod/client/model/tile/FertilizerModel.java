@@ -7,7 +7,7 @@ package fr.iamacat.geckolibexamplemod.client.model.tile;
 
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.block.tile.FertilizerTileEntity;
+import fr.iamacat.geckolibexamplemod.block.tile.FertilizerTileEntity;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

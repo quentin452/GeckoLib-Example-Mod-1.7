@@ -2,8 +2,8 @@ package fr.iamacat.geckolibexamplemod.client.renderer.tile;
 
 import net.minecraft.tileentity.TileEntity;
 
-import software.bernie.example.block.tile.DiagonalTileEntity;
-import software.bernie.example.client.model.tile.DiagonalModel;
+import fr.iamacat.geckolibexamplemod.block.tile.DiagonalTileEntity;
+import fr.iamacat.geckolibexamplemod.client.model.tile.DiagonalModel;
 import software.bernie.geckolib3.collision.ComplexBB;
 import software.bernie.geckolib3.geo.render.built.GeoModel;
 import software.bernie.geckolib3.renderers.geo.GeoBlockRenderer;

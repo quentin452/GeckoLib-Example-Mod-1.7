@@ -1,7 +1,7 @@
 package fr.iamacat.geckolibexamplemod.client.renderer.armor;
 
-import software.bernie.example.client.model.armor.PotatoArmorModel;
-import software.bernie.example.item.PotatoArmorItem;
+import fr.iamacat.geckolibexamplemod.client.model.armor.PotatoArmorModel;
+import fr.iamacat.geckolibexamplemod.item.PotatoArmorItem;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class PotatoArmorRenderer extends GeoArmorRenderer<PotatoArmorItem> {

@@ -14,7 +14,7 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import software.bernie.example.block.tile.DiagonalTileEntity;
+import fr.iamacat.geckolibexamplemod.block.tile.DiagonalTileEntity;
 
 public class DiagonalBlock extends Block implements ITileEntityProvider {
 

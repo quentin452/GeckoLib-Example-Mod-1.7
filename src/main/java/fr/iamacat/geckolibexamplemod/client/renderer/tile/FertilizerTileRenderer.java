@@ -2,8 +2,8 @@ package fr.iamacat.geckolibexamplemod.client.renderer.tile;
 
 import net.minecraft.tileentity.TileEntity;
 
-import software.bernie.example.block.tile.FertilizerTileEntity;
-import software.bernie.example.client.model.tile.FertilizerModel;
+import fr.iamacat.geckolibexamplemod.block.tile.FertilizerTileEntity;
+import fr.iamacat.geckolibexamplemod.client.model.tile.FertilizerModel;
 import software.bernie.geckolib3.renderers.geo.GeoBlockRenderer;
 
 public class FertilizerTileRenderer extends GeoBlockRenderer<FertilizerTileEntity> {

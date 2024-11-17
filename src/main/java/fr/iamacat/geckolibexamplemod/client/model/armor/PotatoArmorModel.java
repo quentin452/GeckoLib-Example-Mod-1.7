@@ -2,7 +2,7 @@ package fr.iamacat.geckolibexamplemod.client.model.armor;
 
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.item.PotatoArmorItem;
+import fr.iamacat.geckolibexamplemod.item.PotatoArmorItem;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
