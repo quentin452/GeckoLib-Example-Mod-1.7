@@ -1,0 +1,9 @@
+item.eggSpawner_bike.name=Bike Spawner
+item.eggSpawner_example.name=Example Spawner
+item.eggSpawner_examplelayer.name=Example Player Spawner
+item.eggSpawner_geonpc.name=Geo Npc Spawner
+
+entity.geckolibexamplemod.geonpc.name=Geo Npc
+entity.geckolibexamplemod.example.name=Example
+entity.geckolibexamplemod.examplelayer.name=Example Player
+entity.geckolibexamplemod.bike.name=Bike
