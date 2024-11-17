@@ -1,5 +1,6 @@
 package fr.iamacat.geckolibexamplemod.client.model.entity;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.util.ResourceLocation;
 
 import fr.iamacat.geckolibexamplemod.entity.GeoNpcEntity;
@@ -15,11 +16,11 @@ public class GeoNpcModel extends AnimatedGeoModel<GeoNpcEntity> {
 
     @Override
     public ResourceLocation getModelLocation(GeoNpcEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "geo/npc.geo.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/npc.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureLocation(GeoNpcEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "textures/model/entity/geo_npc.png");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/geo_npc.png");
     }
 }

@@ -1,6 +1,7 @@
 package fr.iamacat.geckolibexamplemod.client.model.entity; // The package our class is located in
 
 // Imports of the classes used in this class description
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.util.ResourceLocation;
 
 import fr.iamacat.geckolibexamplemod.entity.GeoExampleEntity;
@@ -17,19 +18,19 @@ public class ExampleEntityModel extends AnimatedTickingGeoModel<GeoExampleEntity
     // This method should return a ResourceLocation for the animation file based on the entity state
     @Override
     public ResourceLocation getAnimationFileLocation(GeoExampleEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "animations/bat.animation.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "animations/bat.animation.json");
     }
 
     // This method should return a ResourceLocation for the model file based on the entity state
     @Override
     public ResourceLocation getModelLocation(GeoExampleEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "geo/bat.geo.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/bat.geo.json");
     }
 
     // This method should return a ResourceLocation for the texture file based on the entity state
     @Override
     public ResourceLocation getTextureLocation(GeoExampleEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "textures/model/entity/bat.png");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/bat.png");
     }
 
     // This function allows you to change model properties each frame before render

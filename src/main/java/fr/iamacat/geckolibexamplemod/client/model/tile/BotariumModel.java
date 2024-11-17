@@ -5,6 +5,7 @@
 // Blockbench plugin created by Gecko
 package fr.iamacat.geckolibexamplemod.client.model.tile;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.util.ResourceLocation;
 
 import fr.iamacat.geckolibexamplemod.block.tile.BotariumTileEntity;
@@ -15,16 +16,16 @@ public class BotariumModel extends AnimatedGeoModel<BotariumTileEntity> {
 
     @Override
     public ResourceLocation getAnimationFileLocation(BotariumTileEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "animations/botarium.animation.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "animations/botarium.animation.json");
     }
 
     @Override
     public ResourceLocation getModelLocation(BotariumTileEntity animatable) {
-        return new ResourceLocation(GeckoLib.ModID, "geo/botarium.geo.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/botarium.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureLocation(BotariumTileEntity entity) {
-        return new ResourceLocation(GeckoLib.ModID, "textures/block/botarium.png");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/block/botarium.png");
     }
 }

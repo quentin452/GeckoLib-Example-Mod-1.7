@@ -1,5 +1,6 @@
 package fr.iamacat.geckolibexamplemod.client.model.entity;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.util.ResourceLocation;
 
 import software.bernie.geckolib3.GeckoLib;
@@ -10,16 +11,16 @@ public class ReplacedCreeperModel extends AnimatedGeoModel {
 
     @Override
     public ResourceLocation getModelLocation(Object object) {
-        return new ResourceLocation(GeckoLib.ModID, "geo/creeper.geo.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/creeper.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureLocation(Object object) {
-        return new ResourceLocation(GeckoLib.ModID, "textures/model/entity/creeper.png");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/model/entity/creeper.png");
     }
 
     @Override
     public ResourceLocation getAnimationFileLocation(Object animatable) {
-        return new ResourceLocation(GeckoLib.ModID, "animations/creeper.animation.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "animations/creeper.animation.json");
     }
 }

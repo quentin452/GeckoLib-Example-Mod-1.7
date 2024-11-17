@@ -1,5 +1,6 @@
 package fr.iamacat.geckolibexamplemod.client.model.item;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.util.ResourceLocation;
 
 import fr.iamacat.geckolibexamplemod.item.JackInTheBoxItem;
@@ -10,16 +11,16 @@ public class JackInTheBoxModel extends AnimatedGeoModel<JackInTheBoxItem> {
 
     @Override
     public ResourceLocation getModelLocation(JackInTheBoxItem object) {
-        return new ResourceLocation(GeckoLib.ModID, "geo/jack.geo.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/jack.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureLocation(JackInTheBoxItem object) {
-        return new ResourceLocation(GeckoLib.ModID, "textures/item/jack.png");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/item/jack.png");
     }
 
     @Override
     public ResourceLocation getAnimationFileLocation(JackInTheBoxItem animatable) {
-        return new ResourceLocation(GeckoLib.ModID, "animations/jackinthebox.animation.json");
+        return new ResourceLocation(GeckoLibExampleMod.ModID, "animations/jackinthebox.animation.json");
     }
 }

@@ -5,6 +5,7 @@
 // Blockbench plugin created by Gecko
 package fr.iamacat.geckolibexamplemod.client.model.tile;
 
+import fr.iamacat.geckolibexamplemod.GeckoLibExampleMod;
 import net.minecraft.util.ResourceLocation;
 
 import fr.iamacat.geckolibexamplemod.block.tile.FertilizerTileEntity;
@@ -17,9 +18,9 @@ public class FertilizerModel extends AnimatedGeoModel<FertilizerTileEntity> {
     public ResourceLocation getAnimationFileLocation(FertilizerTileEntity animatable) {
         if (animatable.getWorldObj()
             .isRaining()) {
-            return new ResourceLocation(GeckoLib.ModID, "animations/fertilizer.animation.json");
+            return new ResourceLocation(GeckoLibExampleMod.ModID, "animations/fertilizer.animation.json");
         } else {
-            return new ResourceLocation(GeckoLib.ModID, "animations/botarium.animation.json");
+            return new ResourceLocation(GeckoLibExampleMod.ModID, "animations/botarium.animation.json");
         }
     }
 
@@ -27,9 +28,9 @@ public class FertilizerModel extends AnimatedGeoModel<FertilizerTileEntity> {
     public ResourceLocation getModelLocation(FertilizerTileEntity animatable) {
         if (animatable.getWorldObj()
             .isRaining()) {
-            return new ResourceLocation(GeckoLib.ModID, "geo/fertilizer.geo.json");
+            return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/fertilizer.geo.json");
         } else {
-            return new ResourceLocation(GeckoLib.ModID, "geo/botarium.geo.json");
+            return new ResourceLocation(GeckoLibExampleMod.ModID, "geo/botarium.geo.json");
         }
     }
 
@@ -37,9 +38,9 @@ public class FertilizerModel extends AnimatedGeoModel<FertilizerTileEntity> {
     public ResourceLocation getTextureLocation(FertilizerTileEntity entity) {
         if (entity.getWorldObj()
             .isRaining()) {
-            return new ResourceLocation(GeckoLib.ModID, "textures/block/fertilizer.png");
+            return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/block/fertilizer.png");
         } else {
-            return new ResourceLocation(GeckoLib.ModID, "textures/block/botarium.png");
+            return new ResourceLocation(GeckoLibExampleMod.ModID, "textures/block/botarium.png");
         }
     }
 }
