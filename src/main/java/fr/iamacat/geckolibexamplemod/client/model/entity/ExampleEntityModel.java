@@ -3,7 +3,7 @@ package fr.iamacat.geckolibexamplemod.client.model.entity; // The package our cl
 // Imports of the classes used in this class description
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.entity.GeoExampleEntity;
+import fr.iamacat.geckolibexamplemod.entity.GeoExampleEntity;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
 import software.bernie.geckolib3.core.processor.IBone;

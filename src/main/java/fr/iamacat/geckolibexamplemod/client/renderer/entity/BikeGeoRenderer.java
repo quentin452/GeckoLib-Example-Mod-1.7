@@ -3,8 +3,8 @@ package fr.iamacat.geckolibexamplemod.client.renderer.entity;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.client.model.entity.BikeModel;
-import software.bernie.example.entity.BikeEntity;
+import fr.iamacat.geckolibexamplemod.client.model.entity.BikeModel;
+import fr.iamacat.geckolibexamplemod.entity.BikeEntity;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 
 public class BikeGeoRenderer extends GeoEntityRenderer<BikeEntity> {

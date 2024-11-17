@@ -4,8 +4,8 @@ package fr.iamacat.geckolibexamplemod.client.renderer.entity; // The package our
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.client.model.entity.ExampleEntityModel;
-import software.bernie.example.entity.GeoExampleEntity;
+import fr.iamacat.geckolibexamplemod.client.model.entity.ExampleEntityModel;
+import fr.iamacat.geckolibexamplemod.entity.GeoExampleEntity;
 import software.bernie.geckolib3.core.util.Color;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 

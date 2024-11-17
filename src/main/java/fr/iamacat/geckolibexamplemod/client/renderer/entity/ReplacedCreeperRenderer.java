@@ -7,8 +7,8 @@ import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.client.model.entity.ReplacedCreeperModel;
-import software.bernie.example.entity.ReplacedCreeperEntity;
+import fr.iamacat.geckolibexamplemod.client.model.entity.ReplacedCreeperModel;
+import fr.iamacat.geckolibexamplemod.entity.ReplacedCreeperEntity;
 import software.bernie.geckolib3.renderers.geo.GeoReplacedEntityRenderer;
 
 public class ReplacedCreeperRenderer extends GeoReplacedEntityRenderer<ReplacedCreeperEntity> {

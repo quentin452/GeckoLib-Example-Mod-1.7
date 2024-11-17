@@ -2,7 +2,7 @@ package fr.iamacat.geckolibexamplemod.client.model.entity;
 
 import net.minecraft.util.ResourceLocation;
 
-import software.bernie.example.entity.GeoNpcEntity;
+import fr.iamacat.geckolibexamplemod.entity.GeoNpcEntity;
 import software.bernie.geckolib3.GeckoLib;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

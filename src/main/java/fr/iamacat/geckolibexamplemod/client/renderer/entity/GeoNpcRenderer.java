@@ -10,8 +10,8 @@ import net.minecraftforge.client.IItemRenderer;
 
 import org.lwjgl.opengl.GL11;
 
-import software.bernie.example.client.model.entity.GeoNpcModel;
-import software.bernie.example.entity.GeoNpcEntity;
+import fr.iamacat.geckolibexamplemod.client.model.entity.GeoNpcModel;
+import fr.iamacat.geckolibexamplemod.entity.GeoNpcEntity;
 import software.bernie.geckolib3.geo.render.built.GeoBone;
 import software.bernie.geckolib3.geo.render.built.GeoModel;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
